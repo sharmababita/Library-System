@@ -30,7 +30,7 @@ jobs:
         run: dotnet restore "LibrarySystem.csproj"
 
       - name: Install dotnet-format
-        run: dotnet tool install --global dotnet-format --version 8.0.360
+        run: dotnet tool install --global dotnet-format --version 5.1.250801
 
       - name: Verify code formatting
         run: dotnet format --verify-no-changes
