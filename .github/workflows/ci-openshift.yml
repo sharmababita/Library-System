@@ -33,7 +33,7 @@ jobs:
         run: dotnet tool install --global dotnet-format --version 5.1.250801
 
       - name: Verify code formatting
-        run: dotnet format --verify-no-changes
+        run: dotnet format "LibrarySystem.csproj" --verify-no-changes
 
       - name: Build project
         run: dotnet build "LibrarySystem.csproj" --configuration Release --no-restore
