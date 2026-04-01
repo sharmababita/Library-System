@@ -34,5 +34,6 @@ public class Program
         library.ReturnMedia("M001");
 
         Console.ReadLine();
+        Console.WriteLine("Program avsluttet.");
     }
 }
